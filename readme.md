@@ -7,7 +7,7 @@ Install all the dependencies using composer
 
     composer install
     
-Install all the dependencies using yarn or npm for Frontend
+Install all the dependencies using yarn or npm for frontend
 
     yarn install 
         or 
@@ -33,7 +33,7 @@ Start the local development server
 
     php artisan serve
     
-Start the local development server
+Start the local development client
 
     yarn dev
         or
