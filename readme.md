@@ -25,6 +25,10 @@ Run the database migrations (**Set the database connection in .env before migrat
 
     php artisan migrate
 
+Change the host base url (**Set the base url in endpoints.js**)
+
+    let base = "host_url"
+
 Start the local development server
 
     php artisan serve
