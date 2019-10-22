@@ -185,26 +185,8 @@ export default {
     margin: 24px;
   }
 
-  .selected-day{
-    background: #EEFCEF;
-  }
-
-  .truncate {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
   .margins{
     margin: 8px 0;
   }
 
-  .event-row{
-    border-style: solid;
-    border-width: 1px 0px 1px 0px;
-    border-color: #ddd;
-    line-height: 40px;
-    height: 40px !important;
-    padding: 0px 8px;
-  }
 </style>
