@@ -36,4 +36,9 @@ class EventController extends Controller
         $event = Event::latest()->first();
         return $event;
     }
+
+    public function deleteAllEvents(){
+        Event::truncate();
+        return response()->json(["message"=>"success"]);
+    }
 }

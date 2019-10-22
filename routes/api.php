@@ -17,5 +17,6 @@ Route::middleware('api')->group(function(){
     Route::namespace("Event")->prefix('event')->group(function(){
         Route::post('create', "EventController@createEvent");
         Route::get('latest', "EventController@latestEvent");
+        Route::delete('all', "EventController@deleteAllEvents");
     });
 });
