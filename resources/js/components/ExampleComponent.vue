@@ -6,7 +6,11 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        I'm an example component.
+                        I'm an example iview component.
+                    </div>
+                    <div>
+                        <Input style="width:100px"/>
+                        <Button type="primary">Click me!</Button>
                     </div>
                 </div>
             </div>
